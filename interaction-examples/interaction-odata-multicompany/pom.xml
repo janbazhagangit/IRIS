@@ -5,7 +5,7 @@
   <parent>
 	<groupId>com.temenos.interaction</groupId>
 	<artifactId>interaction-parent</artifactId>
-	<version>0.15.0-SNAPSHOT</version>
+	<version>201715.0.0</version>
 	<relativePath>../../interaction-parent/pom.xml</relativePath>
   </parent>
 
@@ -180,7 +180,7 @@
     									interaction-sdk-rim-plugin
     								</artifactId>
     								<versionRange>
-    									[0.15.0-SNAPSHOT,)
+    									[201715.0.0,)
     								</versionRange>
     								<goals>
     									<goal>rim-generate</goal>

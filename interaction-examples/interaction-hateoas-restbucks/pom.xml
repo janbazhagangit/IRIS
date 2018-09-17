@@ -25,7 +25,7 @@
   <parent>
 	<groupId>com.temenos.interaction</groupId>
 	<artifactId>interaction-parent</artifactId>
-	<version>0.15.0-SNAPSHOT</version>
+	<version>201715.0.0</version>
 	<relativePath>../../interaction-parent/pom.xml</relativePath>
   </parent>
 
@@ -65,7 +65,7 @@
       <plugin>
         <groupId>com.temenos.interaction</groupId>
         <artifactId>interaction-sdk-plugin</artifactId>
-        <version>0.15.0-SNAPSHOT</version>
+        <version>201715.0.0</version>
         <configuration>
           <edmxFile>${basedir}/service.edmx</edmxFile>
           <srcTargetDirectory>${basedir}/src/main/java</srcTargetDirectory>
@@ -76,7 +76,7 @@
       <plugin>
         <groupId>com.temenos.interaction</groupId>
         <artifactId>interaction-sdk-rim-plugin</artifactId>
-        <version>0.15.0-SNAPSHOT</version>
+        <version>201715.0.0</version>
         <executions>
           <!-- Generate the Java source from the RIM during each build -->
           <execution>
@@ -194,7 +194,7 @@
     									interaction-sdk-rim-plugin
     								</artifactId>
     								<versionRange>
-    									[0.15.0-SNAPSHOT,)
+    									[201715.0.0,)
     								</versionRange>
     								<goals>
     									<goal>rim-generate</goal>
